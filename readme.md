@@ -5,7 +5,7 @@
 
 ### For Laravel 5.3, check the [0.5 branch](https://github.com/barryvdh/laravel-async-queue/tree/0.5)
 
-Just like the 'sync' driver, this is not a real queue driver. It is always fired immediatly.
+Just like the 'sync' driver, this is not a real queue driver. It is always fired immediately.
 The only difference is that the closure is sent to the background without waiting for the response.
 This package is more usable as an alternative for running incidental tasks in the background, without setting up a 'real' queue driver.
 
